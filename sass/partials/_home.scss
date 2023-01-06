@@ -1,0 +1,754 @@
+@import 'var';
+
+#header {
+    position: fixed;
+    width: 100%;
+    padding-bottom: 1rem;
+    z-index: 999;
+    transition: .3s;
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            width: 15%;
+            display: inline;
+            a {
+                img {
+                    width: 100%;
+                    transition: .3s;
+                }
+            }
+        }
+
+        .collapse{
+            margin-top: 2rem;   
+         ul {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 0 !important;
+
+            li {
+                margin: 0 1.5rem;
+                display: flex;
+                align-items: center;
+
+                a {
+                    @include Nunito_font;
+
+                    font-size: 2rem;
+                    font-weight: 600;
+                    color: #944bff;
+                    transition: .3s ease-in-out;
+
+                }
+
+                &:hover a {
+                    color: #ff39dc;
+                }
+            }
+
+        }
+    }
+
+
+        .nav_button {
+            display: flex;
+
+            button {
+                @include Anton_font;
+                padding: 1.5rem 3rem;
+                border: none;
+                border-radius: 1rem;
+                box-shadow: 1px 1px 3px 1px #414040;
+                margin: 0 1rem;
+                cursor: pointer;
+            }
+
+            .singup {
+                background-image: linear-gradient(to bottom, #fc37d9, #e72bc4, #d21faf, #bd129a, #a90287);
+                color: white;
+                font-size: 2rem;
+                font-weight: 400;
+                transition: .3s ease;
+
+                &:hover {
+                    background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+                    text-shadow: 5px 5px #414040;
+                }
+            }
+
+            .login {
+                background-image: linear-gradient(to bottom, #fc37d9, #e72bc4, #d21faf, #bd129a, #a90287);
+                color: white;
+                font-size: 2rem;
+                font-weight: 400;
+                transition: .3s ease;
+
+                &:hover {
+                    background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+                    text-shadow: 5px 5px #414040;
+                }
+            }
+
+        }
+    }
+}
+
+// banner part start here 
+#banner {
+    padding: 15rem 0;
+    background: #150035;
+
+    .bannerc_contant {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .banner_ing {
+            width: 50%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .banner_text {
+            margin-left: 40px;
+           width: 50%;
+
+            h4 {
+                font-size: 2rem;
+                color: white;
+                font-weight: 400;
+                font-family: 'Nunito', sans-serif;
+                margin-bottom: -4rem;
+            }
+
+            h1 {
+                font-size: 33rem;
+                font-weight: 400;
+                font-family: 'Anton', sans-serif;
+                color: $main_text;
+
+                text-shadow: 0px 0px 30px #d21faf;
+            }
+
+            .btex_btm {
+                text-align: center;
+                padding-right: 20rem;
+
+                p {
+                    font-size: 1.6rem;
+                    font-weight: 400;
+                    font-family: 'Nunito', sans-serif;
+                    color: white;
+                    margin-top: -4rem;
+                    margin-bottom: 3rem;
+                    line-height: 2.6rem;
+                }
+
+                a {
+                    @include main_btn()
+                }
+            }
+        }
+    }
+}
+
+// related game part start here
+#Related_game {
+    padding-bottom: 10rem;
+    background: $deep_blue;
+
+    .game_card_bd {
+        position: relative;
+
+        .game_card {
+            border-radius: 1rem;
+            background: #6318d1;
+            position: absolute;
+            top: -10rem;
+            left: 0;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            .game_card_item {
+                @include flexpro;
+                padding: 4rem 3.3rem;
+
+                color: white;
+
+                h1 {
+                    font-size: 5rem;
+                    font-weight: 400;
+                    @include Anton_font();
+                    color: $main_text;
+                    transition: .3s all;
+                }
+
+                h2 {
+                    @include sub_title;
+                    transition: .3s all;
+
+                }
+
+                p {
+                    @include pragrp_pro;
+                }
+
+                &:hover h1 {
+                    text-shadow: 1rem .7rem #414040ad;
+                }
+
+                &:hover h2 {
+                    text-shadow: 1rem .7rem #414040ad;
+                }
+            }
+        }
+    }
+
+    .game_head {
+        padding-top: 17rem;
+
+        h1 {
+            @include main_header;
+        }
+    }
+
+    .related_item_body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3rem;
+        margin-top: 6rem;
+
+        .related_item {
+            position: relative;
+
+            .related_item_img {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .related_overly {
+                visibility: hidden;
+                opacity: 0;
+                transition: .3s ease-in-out;
+                display: flex;
+                background: rgba(48, 6, 112, 0.661);
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+
+                h3 {
+                    position: absolute;
+                    right: -20%;
+                    top: 40%;
+                    font-size: 2.4rem;
+                    @include Anton_font();
+                    font-weight: 400;
+                    color: white;
+                    transition: .3s;
+                }
+
+                a {
+                    margin-top: 5rem;
+                    @include main_btn();
+                    position: absolute;
+                    left: -20%;
+                    bottom: 20%;
+                }
+
+                &:hover a {
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+
+                &:hover h3 {
+                    right: 50%;
+                    transform: translateX(50%);
+                }
+            }
+
+            &:hover .related_overly {
+                opacity: .9;
+                visibility: visible;
+            }
+        }
+    }
+}
+
+// Free spin part start here 
+#free_spin {
+    padding-top: 10rem;
+    background: $royal_blue;
+
+    .spin_body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15rem;
+
+        .spin_img {
+            text-align: center;
+
+            img {
+                width: 95%;
+            }
+        }
+
+        .fress_spin_text {
+            h3 {
+                @include main_header;
+                text-align: left
+            }
+
+            p {
+                @include pragrp_pro;
+                text-align: left;
+                padding: 7rem 0;
+
+                span {
+                    display: block;
+                    padding-top: 4rem;
+                }
+            }
+
+            a {
+                @include main_btn;
+            }
+        }
+
+    }
+}
+
+// pricing plan part start here 
+#pricing {
+    padding: 10rem 0;
+    background: $deep_blue;
+
+    .pricing_head {
+        text-align: center;
+
+        h3 {
+            @include main_header;
+        }
+    }
+
+    .pricing_body {
+        margin-top: 8rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3rem;
+
+        .pricing_item {
+            position: relative;
+            @include bg_grdn;
+            padding: 4rem 0;
+            text-align: center;
+            transition: .3s;
+            border-radius: .8rem;
+            cursor: pointer;
+
+            &:hover h3 {
+                text-shadow: 3px 5px #0b001b8f;
+            }
+
+            &:hover {
+                transform: scaleY(1.1);
+            }
+
+            &:hover .price_item_head {
+                top: -3%;
+                opacity: .9;
+                visibility: visible;
+            }
+
+            &:hover a {
+                background-image: linear-gradient(to bottom, #fc37d9, #e72bc3, #d21fae, #bd1299, #a80285);
+            }
+
+            h3 {
+                @include sub_title;
+                transition: .3s all;
+            }
+
+            h2 {
+                font-size: 5rem;
+                font-weight: 700;
+                @include Nunito_font;
+                color: white;
+            }
+
+            p {
+                font-size: 1.4rem;
+                color: white;
+                @include Nunito_font;
+                padding-bottom: 3rem;
+            }
+
+            hr {
+                background: rgb(76, 76, 76);
+                margin-bottom: 2rem;
+            }
+
+            span {
+                @include pragrp_pro;
+                line-height: 4rem;
+                display: block;
+            }
+
+            a {
+                @include main_btn;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 2.3rem;
+            }
+
+            .price_item_head {
+                position: absolute;
+                top: -15%;
+                left: 50%;
+                transform: translateX(-50%);
+                background: rgb(239, 8, 197);
+                width: 100%;
+                opacity: 0;
+                transition: .3s;
+                visibility: hidden;
+                border-top-left-radius: .5rem;
+                border-top-right-radius: .5rem;
+                box-shadow: 0rem .5rem 0rem #414040;
+                z-index: 5;
+            }
+        }
+    }
+}
+
+#faq {
+    padding: 10rem 0;
+    background: $royal_blue;
+
+    .faq_body {
+        display: flex;
+        gap: 3rem;
+
+        .faq_left {
+            width: 60%;
+
+            h1 {
+                @include main_header;
+                text-align: left;
+                padding-bottom: 3rem;
+            }
+
+            hr {
+                border: none;
+                background: #000;
+                height: .2rem;
+                border-bottom: 2px solid #290a59 !important;
+            }
+
+            .left_bdy {
+                margin-top: 5rem;
+            }
+        }
+
+        .faq_right {
+            width: 40%;
+
+            h1 {
+                @include main_header;
+                text-align: left;
+                text-align: left;
+                padding-bottom: 3rem;
+            }
+
+            hr {
+                border: none;
+                background: #000;
+                height: .2rem;
+                border-bottom: 2px solid #290a59 !important;
+            }
+
+            .tournaments_head {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                margin-top: 4rem;
+
+                h3 {
+                    font-size: 2rem;
+                    color: white;
+                }
+
+                .cntr_item {
+                    border: 1px solid $main_text;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 1.5rem;
+
+                    h2 {
+                        font-size: 2rem;
+                        font-weight: 600;
+                        @include Nunito_font;
+                        color: $main_text;
+                    }
+
+                    span {
+                        font-size: 2rem;
+                        font-weight: 600;
+                        @include Nunito_font;
+                        color: $main_text;
+                    }
+                }
+            }
+
+            .scroll_box {
+                margin: 3rem 0;
+                max-height: 25rem;
+                width: 100%;
+                overflow: auto;
+
+                .scroll_item {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 1rem;
+                    padding-right: 2rem;
+
+                    p {
+                        width: 40%;
+                        font-size: 1.6rem;
+                        font-weight: 400;
+                        @include Nunito_font;
+                        color: white;
+                    }
+
+                    span {
+                        width: 10%;
+                        font-size: 1.6rem;
+                        font-weight: 400;
+                        @include Nunito_font;
+                        color: white;
+                    }
+
+                    .trnmnt_img {
+                        width: 20%;
+                        text-align: center;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+#newslatter {
+    padding: 3.5rem 0;
+    @include bg_grdn;
+
+    .newslatter_body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 13rem;
+
+        .latter {
+            .latter_header {
+                @include sub_title;
+                font-size: 2.5rem;
+                text-shadow: .6rem .6rem #414040;
+                margin-bottom: 2rem;
+            }
+
+            form {
+                .input {
+                    display: flex;
+                    justify-content: space-between;
+                    border: 1px solid rgba(0, 0, 0, 0.453);
+
+                    input {
+                        padding: 1.5rem;
+                        width: 90%;
+                        background: transparent;
+                        outline: none;
+                        border: none;
+
+                        &::placeholder {
+                            font-size: 1 .4rem;
+                            color: rgba(0, 0, 0, 0.453);
+                            font-weight: 400;
+                            @include Nunito_font;
+                        }
+                    }
+
+                    .snt_btn {
+                        width: 10%;
+                        padding: 1.5rem;
+                        background: transparent;
+                        outline: none;
+                        border: none;
+                        border-left: 1px solid rgba(0, 0, 0, 0.453);
+                        font-size: 1.5rem;
+                        color: rgba(0, 0, 0, 0.453);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .pament {
+            .pament_header {
+                @include sub_title;
+                font-size: 2.5rem;
+                text-shadow: .6rem .6rem #414040;
+                margin-bottom: 2rem;
+            }
+
+            .payment_cards {
+
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+
+                img {
+                    width: 100%;
+                    border-radius: 5px;
+                    transition: .3s;
+                    cursor: pointer;
+
+                    &:hover {
+                        box-shadow: .4rem .6rem 0rem #3a0090a2;
+                        transform: scale(1.1);
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+#contact {
+    padding: 6rem 0;
+    background: $deep_blue;
+
+    .contact_body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4rem;
+
+        .about {
+            .about_head {
+                @include sub_title;
+                margin-bottom: 3rem;
+            }
+
+            .about_text {
+                p {
+                    font-size: 1.6rem;
+                    @include Nunito_font;
+                    font-weight: 300;
+                    color: white;
+                    padding-bottom: 3rem;
+                }
+            }
+
+            .social_icon {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 1.5rem;
+
+                .social_item {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 5rem;
+                    width: 5rem;
+                    @include bg_grdn;
+                    transition: .3s all;
+
+                    &:hover {
+                        @include bg_grdn2;
+                        box-shadow: .4rem .4rem .7rem #3b0336;
+                        transform: scale(1.1);
+                    }
+
+                    a {
+                        font-size: 1.5rem;
+                        color: wheat;
+                    }
+                }
+
+            }
+
+        }
+
+        .links {
+            .links_head {
+                @include sub_title;
+                margin-bottom: 3rem;
+            }
+
+            .important_links {
+                display: flex;
+                gap: 6rem;
+
+                a {
+                    display: block;
+                    @include pragrp_pro;
+                    text-align: left;
+                    margin-bottom: 1.2rem;
+                }
+            }
+        }
+
+        .security {
+            .security_head {
+                @include sub_title;
+                margin-bottom: 3rem;
+            }
+
+            .security_body {
+                .security_item {
+                    display: flex;
+                    gap: 3rem;
+                    margin-bottom: 3rem;
+
+                    .security_text {
+                        @include pragrp_pro;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#footer {
+    padding: 2rem 0;
+    background: $deep_blue;
+
+    p {
+        @include pragrp_pro;
+    }
+}
+hr {
+	margin-top: 0rem !important;
+	margin-bottom: 0rem !important;
+	border: 0;
+	border-top: 1px solid rgba(0,0,0,.1);
+}

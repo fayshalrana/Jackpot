@@ -1,0 +1,1250 @@
+/* //////////////////////////////// HOME PAGE //////////////////////////////  */
+/* // X-Small devices  */
+@media (min-width:320px) and (max-width: 575.98px) {
+    #header .navbar .logo {
+        width: 15%;
+        display: inline;
+        margin-left: 3rem;
+    }
+    .navbar-toggler {
+        margin-right: 3rem;
+        font-size: 2rem;
+        color: rgb(146, 143, 143);
+    }
+    #header .navbar .collapse ul {
+        display: flex;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(3px);
+    }
+    #header .navbar .collapse ul li a {
+        font-size: 1rem;
+    }
+    #header .navbar .nav_button {
+        display: flex;
+        justify-content: center;
+    }
+    #header .navbar .nav_button .singup {
+        font-size: 1rem;
+    }
+    #header .navbar .nav_button .login {
+        font-size: 1rem;
+        
+    }
+    #banner .bannerc_contant {
+        flex-direction: column;
+    }
+    #banner .bannerc_contant .banner_ing {
+        width: 80%;
+    }
+    #banner .bannerc_contant .banner_text {
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    #banner .bannerc_contant .banner_text h4 {
+        font-size: 2rem;
+        margin-bottom: -1rem;
+    }
+    #banner .bannerc_contant .banner_text h1 {
+        font-size: 20rem;
+    }
+    #banner .bannerc_contant .banner_text .btex_btm {
+        text-align: center;
+        padding-right: 0rem;
+    }
+    #banner .bannerc_contant .banner_text .btex_btm p {
+        font-size: 1.5rem;
+        margin-top: -2rem;
+        padding: 0 20px;
+    }
+    #Related_game .game_card_bd .game_card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #Related_game .game_card_bd .game_card .game_card_item {
+        padding: 4rem 2.3rem;
+        color: white;
+    }
+    #Related_game .game_head {
+        padding-top: 57rem;
+        text-align: center;
+        width: 100%;
+    }
+    #Related_game .game_head h1 {
+        font-size: 3.8rem;
+        text-shadow: 0rem 0rem 4rem #9d4cfb;
+    }
+    #Related_game .related_item_body {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+        margin-top: 6rem;
+        width: 100%;
+        padding: 0 20px;
+    }
+    #Related_game .related_item_body .related_item .related_overly h3 {
+        font-size: 1.4rem;
+        top: 44%;
+    }
+    #Related_game .related_item_body .related_item .related_overly a {
+        margin-top: 2rem;
+        font-size: 1.4rem;
+        bottom: 25%;
+    }
+    #free_spin .spin_body {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+    }
+    #free_spin .spin_body .fress_spin_text h3 {
+        text-align: center;
+    }
+    #free_spin .spin_body .fress_spin_text p {
+        font-size: 1.5rem;
+        line-height: 2.6rem;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+    #free_spin .spin_body .fress_spin_text p span {
+        display: block;
+        padding-top: 0rem;
+    }
+    #free_spin .spin_body .fress_spin_text a {
+         font-size: 1.4rem;
+    }
+    #pricing {
+        padding: 5rem 0;
+        background: #0b001b;
+    }
+    #pricing .pricing_body {
+        margin-top: 8rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 7rem;
+        padding: 0 35px;
+    }
+    #pricing .pricing_body .pricing_item .price_item_head {
+        box-shadow: 0rem 0.2rem 0rem #414040;
+        z-index: 5;
+    }
+    #pricing .pricing_body .pricing_item h3 {
+        font-size: 2.2rem;
+    }
+    #pricing .pricing_body .pricing_item h3 {
+        font-size: 1.5rem;
+    }
+    #pricing .pricing_body .pricing_item p {
+        padding-bottom: 0rem;
+    }
+    #pricing .pricing_body .pricing_item hr {
+        background: rgb(76, 76, 76);
+        margin-bottom: 0rem;
+    }
+    #pricing .pricing_body .pricing_item span {
+        font-size: 1.4rem;
+        line-height: 2.6rem;
+        line-height: 3rem;
+    }
+    #pricing .pricing_body .pricing_item a { font-size: 1.4rem;
+    }
+    #faq {
+        padding: 5rem 0;
+        background: #150035;
+    }
+    #faq .faq_body {
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+    }
+    #faq .faq_body .faq_left {
+        width: 100%;
+    }
+    #faq .faq_body .faq_left h1 {
+        font-size: 2.8rem;
+        text-align: center;
+        text-align: center;
+    }
+    #faq .faq_body .faq_left .left_bdy {
+        margin-top: 1rem;
+    }
+    .accordion-heading {
+        font-size: 1.2rem !important;
+        padding: .5rem 0 !important;
+    }
+    dd p {
+        font-size: 1.2rem !important;
+    }
+    #faq .faq_body .faq_right {
+        width: 100%;
+    }
+    #faq .faq_body .faq_right h1 {
+        font-size: 2.8rem;
+        text-align: center;
+    }
+    #faq .faq_body .faq_right .tournaments_head h3 {
+        font-size: 1.1rem;
+        color: white;
+    }
+    #faq .faq_body .faq_right .tournaments_head .cntr_item h2 {
+        font-size: 1.5rem;
+    }
+    #faq .faq_body .faq_right .tournaments_head .cntr_item span {
+        font-size: 1rem;
+    }
+    #faq .faq_body .faq_right .scroll_box .scroll_item p {
+        font-size: 1.2rem;
+    }
+    #faq .faq_body .faq_right .scroll_box .scroll_item span {
+        font-size: 1rem;
+    }
+    #newslatter .newslatter_body {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+    }
+    #newslatter .newslatter_body .latter_header h3{
+     font-size: 2rem;
+    }
+    #newslatter .newslatter_body .latter form .input .snt_btn {
+        width: 18%;
+        padding: 1.5rem;
+        font-size: 1.5rem;
+    }
+    .pament_header h3 {
+        font-size: 2.5rem;
+    }
+    #contact .contact_body {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 4rem;
+        text-align: center;
+        padding: 0 2rem;
+    }
+    #contact .contact_body .about .about_head  h3{
+        font-size: 3.2rem;
+    }
+    #contact .contact_body .links .links_head h3{
+        font-size: 3.2rem;
+    }
+    #contact .contact_body .about .social_icon {
+        justify-content: center;
+    }
+    #contact .contact_body .links .important_links {
+        display: flex;
+        gap: 6rem;
+        justify-content: center;
+    }
+    #faq .faq_body .faq_right hr {
+        height: 0.1rem;
+        border-bottom: 2px solid #290a59 !important;
+    }
+    #contact .contact_body .security .security_head h3{
+        font-size: 3.2rem;
+        margin-bottom: 3rem;
+    }
+    #contact .contact_body .security .security_body .security_item {
+        display: flex;
+        gap: 3rem;
+        margin-bottom: 3rem;
+        justify-content: center;
+    }
+    #contact .contact_body .security .security_body .security_item .security_text {
+        font-size: 1.2rem;
+    }
+    #contact .contact_body .links .important_links a {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: 1.2rem;
+    }
+    #footer p {
+        font-size: 1.2rem;
+    }
+    #Related_game .game_card_bd .game_card {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    #Related_game .game_card_bd {
+        position: relative;
+        margin: 0 30px;
+    }
+    #pricing .pricing_head h3 {
+        font-size: 2.8rem;
+    }
+    #free_spin .spin_body .fress_spin_text h3 {
+        font-size: 2.8rem;
+    }
+    .fress_spin_text{
+        text-align: center;
+    }
+}
+
+
+/* // Small devices  */
+@media (min-width:575.98px) and (max-width: 767.98px) {
+    #header .navbar .logo a img {
+        width: 144%;
+        transition: 0.3s;
+        margin-left: 20px;
+    }  
+    .navbar-toggler {
+        font-size: 2.25rem;
+        line-height: 1;
+        color: rgb(155, 155, 155);
+        margin-right: 30px;
+    } 
+    #header .navbar .collapse ul {
+        backdrop-filter: blur(4px);
+    }
+    #header .navbar .collapse ul li a {
+        font-size: 15px;
+    }
+    #header .navbar .nav_button {
+        display: flex;
+        justify-content: center;
+    }
+    #header .navbar .nav_button .singup {
+        font-size: 1rem;
+    }
+    #header .navbar .nav_button .login {
+        font-size: 1rem;
+    }
+    #banner .bannerc_contant {
+        flex-direction: column;
+    }
+    #banner .bannerc_contant .banner_ing {
+        width: 100%;
+    }
+    #banner .bannerc_contant .banner_text {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #banner .bannerc_contant .banner_text h4 {
+        margin-top: 20px;
+    }
+    #banner .bannerc_contant .banner_text .btex_btm {
+        padding-right: 0;
+        padding: 0 30px;
+    }
+    #banner .bannerc_contant .banner_text .btex_btm a {
+         font-size: 1.4rem;
+    }
+    #Related_game .game_card_bd .game_card .game_card_item h1 {
+        font-size: 4rem;
+    }
+    #Related_game .game_card_bd .game_card .game_card_item h2 {
+        font-size: 2.2rem;
+    }
+    #Related_game .game_card_bd .game_card .game_card_item p {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+    }
+    #Related_game .game_head h1 {
+        font-size: 3.8rem;
+    }
+    #Related_game .related_item_body {
+        grid-gap: 1rem;
+        margin-top: 3rem;
+    }
+    #Related_game .related_item_body .related_item .related_overly a {
+        padding: 1.1rem 2rem;font-size: 0.6rem;
+    }
+    #Related_game .related_item_body .related_item .related_overly h3 {
+        font-size: 1.4rem;
+    }
+    #Related_game {
+        padding-bottom: 3rem;
+    }
+    #free_spin {
+        padding-top: 5rem;
+    }
+    #free_spin .spin_body {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+    }
+    #free_spin .spin_body .fress_spin_text h3 {
+        font-size: 3.8rem;
+        text-align: center;
+    }
+    .fress_spin_text{
+        text-align: center;
+    }
+    #free_spin .spin_body .fress_spin_text p {
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        text-align: center;
+        padding: 4rem 2rem;
+    }
+    #pricing .pricing_head h3 {
+        font-size: 3.8rem;
+    }
+    #pricing .pricing_body {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5rem;
+        margin: 6rem 10rem;
+    }
+    #pricing .pricing_body .pricing_item .price_item_head {
+        box-shadow: 0rem 0.3rem 0rem #414040;
+    }
+    #pricing .pricing_body .pricing_item h3 {
+        font-size: 2.2rem;
+    }
+    #pricing .pricing_body .pricing_item h2 {
+        font-size: 4rem;
+    }
+    #pricing .pricing_body .pricing_item hr {
+        margin-bottom: 0rem;
+    }
+    #pricing .pricing_body .pricing_item span {
+        font-size: 1.4rem;
+        line-height: 2.6rem;
+        line-height: 2.5rem;
+    }
+    #pricing .pricing_body .pricing_item a { font-size: 1.4rem;
+    }
+    #pricing {
+        padding: 4rem 0;
+        background: #0b001b;
+    }
+    #faq {
+        padding: 5rem 0;
+        background: #150035;
+    }
+    #faq .faq_body {
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+    }
+    #faq .faq_body .faq_left {
+        width: 100%;
+    }
+    #faq .faq_body .faq_left h1 {
+        font-size: 3.8rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    #faq .faq_body .faq_left hr {
+        height: 0.2rem;
+    }
+    .accordion-heading {
+        font-size: 1.5rem !important;
+        padding: .5rem 0 !important;
+    }
+    #faq .faq_body .faq_right {
+        width: 100%;
+    }
+    #faq .faq_body .faq_right h1 {
+        font-size: 3.8rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    #faq .faq_body .faq_right hr {
+        height: 0.2rem;
+    }
+    #faq .faq_body .faq_right .tournaments_head h3 {
+        font-size: 1.5rem;
+    }
+    #faq .faq_body .faq_right .tournaments_head .cntr_item span {
+        font-size: 1rem;
+    }
+    #newslatter .newslatter_body {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 3rem;
+    }
+    .h3, h3 {
+        font-size: 3.75rem;
+    }
+    #contact .contact_body {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 4rem;
+    }
+    #contact .contact_body .about .about_head {
+        text-align: center;
+    }
+    #contact .contact_body .about .about_text p {
+        text-align: center;
+    }
+    #contact .contact_body .about .social_icon {
+        justify-content: center;
+    }
+    #contact .contact_body .links .links_head {
+        text-align: center;
+    }
+    #contact .contact_body .links .important_links {
+        display: flex;
+        gap: 6rem;
+        justify-content: center;
+    }
+    #contact .contact_body .security .security_head {
+        text-align: center;
+    }
+    #contact .contact_body .security .security_body .security_item {
+        justify-content: center;
+    }
+    hr {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        border: 0;
+    }
+    #footer p {
+        font-size: 1.3rem;
+    }
+}
+
+/* // Medium devices  */
+@media (min-width:767.98px) and  (max-width: 991.98px) {
+    #header .navbar .logo a img {
+        margin-left: 30px;
+    }
+    .navbar-toggler {
+        margin-right: 30px;
+        color: rgb(147, 147, 147);
+        font-size: 20px;
+    }
+    #header .navbar .collapse ul {
+        backdrop-filter: blur(4px);
+    }
+    #header .navbar .collapse ul li a {
+        font-size: 1.5rem;
+    }
+    #header .navbar .nav_button {
+        display: flex;
+        justify-content: center;
+    }
+    #header .navbar .nav_button .singup {
+        font-size: 1rem;
+    }
+    #header .navbar .nav_button .login {
+        font-size: 1rem;
+    }
+    #banner .bannerc_contant .banner_ing {
+        width: 100%;
+    }
+    #banner .bannerc_contant .banner_text {
+        margin-left: 40px;
+        width: 100%;
+    }
+    #banner .bannerc_contant .banner_text h1 {
+        font-size: 20rem;
+    }
+    #banner .bannerc_contant .banner_text h4 {
+        font-size: 1.5rem;
+        margin-bottom: -2rem;
+    }
+    #banner .bannerc_contant .banner_text .btex_btm {
+        text-align: left;
+        padding-right: 0;
+    }
+    #banner .bannerc_contant .banner_text .btex_btm a {
+        font-size: 2.2rem;
+    }
+    #Related_game .game_card_bd .game_card .game_card_item h1 {
+        font-size: 4rem;
+    }
+    #Related_game .game_card_bd .game_card .game_card_item h2 {
+        font-size: 3rem;
+    }
+    #Related_game .game_card_bd .game_card .game_card_item p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    #Related_game .game_head h1 {
+        font-size: 3.8rem;
+    }
+    #Related_game .related_item_body {
+        grid-gap: 1rem;
+        margin-top: 4rem;
+    }
+    #Related_game .related_item_body .related_item .related_overly a {
+        font-size: 1.4rem;
+    }
+    #Related_game .related_item_body .related_item .related_overly h3 {
+        font-size: 2.1rem;
+    }
+    #free_spin .spin_body .fress_spin_text h3 {
+        font-size: 3.8rem;
+    }
+    #free_spin .spin_body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4rem;
+    }
+    #free_spin .spin_body .spin_img img {
+        width: 100%;
+    }
+    #free_spin .spin_body .fress_spin_text p {
+        font-size: 1.3rem;
+        padding: 2rem 0;
+    }
+    #free_spin .spin_body .fress_spin_text p span {
+        display: block;
+        padding-top: 1rem;
+    }
+    #free_spin .spin_body .fress_spin_text a {
+        font-size: 1.4rem;
+    }
+    #free_spin {
+        padding-top: 4rem;
+        background: #150035;
+    }
+    #pricing {
+        padding: 4rem 0;
+        background: #0b001b;
+    }
+    #pricing .pricing_head h3 {
+        font-size: 3.8rem;
+    }
+    #pricing .pricing_body {
+        margin-top: 7rem;
+        grid-gap: 1rem;
+    }
+    #pricing .pricing_body .pricing_item h3 {
+        font-size: 2.2rem;
+    }
+    #pricing .pricing_body .pricing_item .price_item_head {
+        box-shadow: 0rem 0.4rem 0rem #414040;
+    }
+    #pricing .pricing_body .pricing_item h2 {
+        font-size: 4rem;
+    }
+    #pricing .pricing_body .pricing_item p {
+        padding-bottom: 1rem;
+    }
+    #pricing .pricing_body .pricing_item span {
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+    #pricing .pricing_body .pricing_item a {
+        font-size: 1rem;
+    }
+    #faq {
+        padding: 4rem 0;
+        background: #150035;
+    }
+    #faq .faq_body .faq_left h1 {
+        font-size: 2.8rem;
+        padding-bottom: 0rem;
+    }
+    #faq .faq_body .faq_left hr {
+        height: 0.1rem;
+    }
+    #faq .faq_body .faq_right h1 {
+        font-size: 2.8rem;;
+        padding-bottom: 0rem;
+    }
+    #faq .faq_body .faq_right hr {
+        height: 0.1rem;
+    }
+    .accordion-heading {
+        font-size: 1.5rem !important;
+        padding: .5rem 0 !important;
+    }
+    #faq .faq_body .faq_right .tournaments_head h3 {
+        font-size: 1.5rem;
+        color: white;
+    }
+    #faq .faq_body .faq_right .tournaments_head .cntr_item span {
+        font-size: 1rem;
+    }
+    #faq .faq_body .faq_right .scroll_box .scroll_item p {
+        font-size: 1rem;
+    }
+    #faq .faq_body .faq_right .scroll_box .scroll_item span {
+        width: 10%;
+        font-size: 1rem;
+    }
+    #newslatter .newslatter_body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 3rem;
+    }
+    #newslatter .newslatter_body .latter form .input .snt_btn {
+        width: 20%;
+    }
+    .latter_header h3{
+        font-size: 3.1rem;
+    }
+    .pament_header h3{
+        font-size: 3.1rem;
+    }
+    #contact .contact_body .links .important_links a {
+        display: block;
+        font-size: 1.3rem;
+        line-height: 2.6rem;
+        margin-bottom: 0.2rem;
+    }
+    #contact .contact_body .security .security_body .security_item .security_text {
+        font-size: 1.2rem;
+        line-height: 2.6rem;
+    }
+    hr {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        border: 0;
+        border-top: 1px solid rgba(0,0,0,.1);
+    }
+    #footer p {
+        font-size: 1.5rem;
+    }
+}
+
+/* // Large devices  */
+@media (min-width: 991.98px)and  (max-width: 1199.98px) {}
+/* //////////////////////////////// HOME PAGE //////////////////////////////  */
+/* ////////////////////////////////////  ABOUT PAGE //////////////////////////// */
+/* // X-Small devices  */
+@media (min-width:320px) and (max-width: 575.98px){
+    #header .navbar .logo {
+        width: 15%;
+        display: inline;
+        margin-left: 2rem;
+    }
+    #banner {
+        padding: 10rem 0;
+        background: #150035;
+    }
+    
+    #banner .bannerc_contant .About_text p {
+        font-size: 1.6rem;
+    }
+    #About_spin {
+        padding-bottom: 4rem;
+        background: #0b001b;
+    }
+    #About_spin .game_card_bd .game_card {
+        width: 100%;
+        border-radius: 1rem;
+        background: #6318d1;
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #About_spin .spin_body {
+        padding-top: 76rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+    }
+    #About_spin .spin_body .fress_spin_text p {
+        font-size: 1.3rem;
+        font-weight: 400;
+        font-family: "Nunito", sans-serif;
+        text-align: center;
+        line-height: 1.6rem;
+        color: white;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    #About_spin .spin_body .fress_spin_text .spin_btn {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 4rem;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    #About_spin .spin_body .fress_spin_text .spin_btn a {
+        padding: 1.5rem 3rem;
+        background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+        font-size: 2rem;
+    }
+    #About_game .game_head {
+        padding-top: 4rem;
+    }
+    #About_game .game_head h1 {
+        font-size: 2.8rem;
+    }
+    #newslatter .newslatter_body .latter_header h3 {
+        font-size: 3rem;
+    }
+    .pament_header h3 {
+        font-size: 3rem;
+    }
+    #newslatter .newslatter_body .pament .payment_cards {
+    }
+}
+
+/* // Small devices  */
+@media (min-width:576) and (max-width: 767.98px) {
+    #About_spin .game_card_bd .game_card {
+        width: 100%;
+        border-radius: 1rem;
+        background: #6318d1;
+        position: absolute;
+        top: -12rem;
+        left: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #About_spin .spin_body {
+        padding-top: 53rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 4rem;
+    }
+    #About_spin .spin_body .fress_spin_text p {
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-family: "Nunito", sans-serif;
+        text-align: center;
+        line-height: 2.6rem;
+        color: white;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    #About_spin .spin_body .fress_spin_text .spin_btn {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 4rem;
+        width: 100%;
+        justify-content: center;
+    }
+    #About_game .game_head {
+        padding-top: 6rem;
+    }
+}
+
+/* // medim devices  */
+@media (min-width:767.98px) and (max-width: 991.98px) {
+    #About_game .related_item_body .related_item .related_overly a {
+        margin-top: 5rem;
+        padding: 1.2rem 2rem;
+        background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+        font-size: 1.2rem;
+        font-family: "Anton", sans-serif;
+        border-radius: 1rem;
+        color: white;
+        transition: 0.3s all;
+        position: absolute;
+        left: -20%;
+        bottom: 20%;
+    }
+    #About_spin .game_card_bd .game_card {
+        width: 100%;
+        border-radius: 1rem;
+        background: #6318d1;
+        position: absolute;
+        top: -10rem;
+        left: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #About_spin .game_card_bd .game_card .game_card_item h2 {
+        font-size: 2.2rem;
+        font-weight: 400;
+        font-family: "Anton", sans-serif;
+        color: white;
+        transition: 0.3s all;
+    }
+    #About_spin .game_card_bd .game_card .game_card_item h1 {
+        font-size: 4rem;
+        font-weight: 400;
+        font-family: "Anton", sans-serif;
+        color: #f8a709;
+        transition: 0.3s all;
+    }
+    #About_spin .game_card_bd .game_card .game_card_item p {
+        font-size: 1.34em;
+        font-weight: 400;
+        font-family: "Nunito", sans-serif;
+        text-align: center;
+        line-height: 2rem;
+        color: white;
+    }
+    #About_spin .spin_body {
+        padding-top: 13rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+    #About_spin .spin_body .fress_spin_text p {
+        font-size: 1.3rem;
+        font-weight: 400;
+        font-family: "Nunito", sans-serif;
+        text-align: center;
+        line-height: 2.2rem;
+        color: white;
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+    #About_spin .spin_body .fress_spin_text .spin_btn a {
+        padding: 1.5rem 3rem;
+        background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+        font-size: 1.5rem;
+        font-family: "Anton", sans-serif;
+        border-radius: 1rem;
+        color: white;
+        transition: 0.3s all;
+    }   
+    #About_game .game_head {
+        padding-top: 7rem;
+    }
+    #banner {
+        padding: 13rem 0;
+        background: #150035;
+    }
+}
+
+/* // Large devices  */
+@media (min-width: 991.98px)and  (max-width: 1199.98px) {}
+/* ////////////////////////////////////  ABOUT PAGE //////////////////////////// */
+/* ////////////////////////////////////  Game PAGE //////////////////////////// */
+/* // X-Small devices  */
+@media (min-width:320px) and (max-width: 575.98px){
+    #banner {
+        padding: 6rem 0;
+        background: #150035;
+    }
+    #Related_game .game_card_bd .game_card {
+        top: 3rem;
+    }
+    #Related_game .game_head {
+        padding-top: 70rem;
+    }
+}
+
+
+/* // Small devices  */
+@media (min-width:576) and (max-width: 767.98px){}
+
+
+/* // medim devices  */
+@media (min-width:767.98px) and (max-width: 991.98px) {}
+
+
+/* // Large devices  */
+@media (min-width: 991.98px)and  (max-width: 1199.98px) {}
+
+
+
+/* ////////////////////////////////////  Game PAGE //////////////////////////// */
+/* ////////////////////////////////////  membership PAGE //////////////////////////// */
+@media (min-width:320px) and (max-width: 575.98px){
+    #Related_game .game_card_bd .game_card {
+        border-radius: 1rem;
+        background: #6318d1;
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pricing .pricing_body {
+        margin-top: 8rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5rem;
+    }
+    .pricing .pricing_body .pricing_item a {
+         background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+        font-size: 1.4rem;
+    }
+    #Related_game .game_card_bd .game_card {
+        border-radius: 1rem;
+        background: #6318d1;
+        position: absolute;
+        top: -5rem;
+        left: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    #header .navbar .logo a img {
+        width: 137%;
+        transition: 0.3s;
+    }
+
+}
+
+
+/* // Small devices  */
+@media (min-width:576px) and (max-width: 767.98px){
+    .pricing .pricing_body {
+        margin-top: 8rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 3rem;
+        grid-row-gap: 10rem;
+        padding: 0 7rem;
+    }
+    .pricing .pricing_body .pricing_item a {
+        padding: 1.5rem 3rem;
+        background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+        font-size: 2rem;
+        font-family: "Anton", sans-serif;
+        border-radius: 1rem;
+        color: white;
+        transition: 0.3s all;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+/* // medim devices  */
+@media (min-width:767.98px) and (max-width: 991.98px) {
+    .pricing .pricing_body .pricing_item h3 {
+        font-size: 2.2rem;
+        font-weight: 400;
+        font-family: "Anton", sans-serif;
+        color: white;
+        transition: 0.3s all;
+    }
+    .pricing .pricing_body .pricing_item h2 {
+        font-size: 4rem;
+        font-weight: 700;
+        font-family: "Nunito", sans-serif;
+        color: white;
+    }.pricing .pricing_body {
+        margin-top: 0rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+        grid-row-gap: 10rem;
+    }
+    .pricing .pricing_body .pricing_item span {
+        font-size: 1.3rem;
+        font-weight: 400;
+        font-family: "Nunito", sans-serif;
+        text-align: center;
+        color: white;
+        line-height: 3rem;
+        display: block;
+    }
+    .pricing .pricing_body .pricing_item a {
+        padding: 1.5rem 1rem;
+        background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+        font-size: 1.5rem;
+        font-family: "Anton", sans-serif;
+        border-radius: 1rem;
+        color: white;
+        transition: 0.3s all;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+/* // Large devices  */
+@media (min-width: 991.98px)and  (max-width: 1199.98px) {
+    .pricing .pricing_body .pricing_item a {
+        padding: 1.5rem 2rem;
+        background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+        font-size: 2rem;
+        font-family: "Anton", sans-serif;
+        border-radius: 1rem;
+        color: white;
+        transition: 0.3s all;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+/* ////////////////////////////////////  membership PAGE //////////////////////////// */
+/* ////////////////////////////////////  signup PAGE //////////////////////////// */
+@media (min-width:320px) and (max-width: 575.98px){
+    #banner {
+        padding: 10rem 0;
+        background: #150035;
+    }
+    #singup_body .game_card_bd .game_card {
+        width: 100%;
+        position: absolute;
+        top: -17rem;
+        left: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #singup_body .singup_container {
+        padding-top: 55rem;
+        display: flex;
+        gap: 3rem;
+    }
+    #singup_body .singup_container {
+        padding-top: 55rem;
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #singup_body .singup_container .big_win_img {
+        text-align: center;
+        width: 100%;
+    }
+    #singup_body .singup_container .big_win_img img {
+        width: 100%;
+    }
+    #singup_body .singup_container {
+        padding-top: 55rem;
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left !important;
+    }   
+    #singup_body .singup_container .signup_form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    #singup_body .singup_container .signup_form .signup_top ::after {
+        content: "";
+        position: absolute;
+        width: 17rem;
+        height: 0.5rem;
+        background: rgb(255, 255, 255);
+        left: 0;
+        bottom: -2rem;
+        border-radius: 1rem;
+    }
+    #singup_body .singup_container .signup_form .signup_top h3 {
+        font-size: 2.2rem;
+        font-weight: 400;
+        font-family: "Anton", sans-serif;
+        color: white;
+    }
+    #singup_body .singup_container .signup_form .signup_top p {
+        font-size: 1.3rem;
+    }
+    #singup_body .singup_container .signup_form .user_form .form_head {
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+        width: 100%;
+        flex-direction: column;
+    }
+    #singup_body .singup_container .signup_form .form_footer {
+        display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+
+
+/* // Small devices  */
+@media (min-width:576px) and (max-width: 767.98px){
+    #banner .bannerc_contant .About_text h3 {
+        font-size: 3.8rem;
+    }
+    #banner .bannerc_contant .About_text p {
+	font-size: 2rem;
+}
+#singup_body .game_card_bd .game_card {
+	width: 100%;
+	position: absolute;
+	top: -17rem;
+	left: 0;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+   }
+   #singup_body .singup_container {
+	padding-top: 50rem;
+	display: flex;
+	gap: 3rem;
+	flex-direction: column;
+    gap: 1rem;
+}
+#singup_body .singup_container .big_win_img {
+	text-align: center;
+	width: 100%;
+}
+#singup_body .singup_container .big_win_img img {
+	width: 100%;
+}
+#singup_body .singup_container .signup_form {
+	width: 100%;
+}
+#singup_body .singup_container .signup_form .form_footer .account p {
+	font-size: 1.2rem;
+}
+}
+
+
+/* // medim devices  */
+@media (min-width:767.98px) and (max-width: 991.98px) {
+    #singup_body .game_card_bd .game_card {
+        width: 100%;
+        position: absolute;
+        top: -17rem;
+        left: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    }
+    #singup_body .game_card_bd .game_card .game_card_item h1 {
+        font-size: 4rem;
+    }
+    #singup_body .game_card_bd .game_card .game_card_item h2 {
+        font-size: 2.7rem;
+    }
+    #singup_body .game_card_bd .game_card .game_card_item p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    #singup_body .singup_container .big_win_img {
+        text-align: center;
+        width: 100%;
+    }
+    #singup_body .singup_container .big_win_img {
+        text-align: center;
+        width: 100%;
+    }
+    #singup_body .singup_container {
+        flex-direction: column;
+    }
+    #singup_body .singup_container .big_win_img img {
+        width: 100%;
+    }
+    #singup_body .singup_container .signup_form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+
+/* // Large devices  */
+@media (min-width: 991.98px)and  (max-width: 1199.98px) {}
+/* ////////////////////////////////////  signup PAGE //////////////////////////// */
+/* ////////////////////////////////////  login PAGE //////////////////////////// */
+@media (min-width:320px) and (max-width: 575.98px){
+    #banner {
+        padding: 10rem 0;
+        background: #150035;
+    }
+    #banner .bannerc_contant .About_text h3 {
+        font-size: 3.8rem;
+    }
+    #singup_body .singup_container .signup_form .form_footer .account p {
+        font-size: 1.5rem;
+    }
+    #singup_body .game_card_bd .game_card {
+        grid-gap: 3rem;
+    }
+}
+
+
+/* // Small devices  */
+@media (min-width:576) and (max-width: 767.98px){}
+
+
+/* // medim devices  */
+@media (min-width:767.98px) and (max-width: 991.98px) {}
+
+
+/* // Large devices  */
+@media (min-width: 991.98px)and  (max-width: 1199.98px) {}

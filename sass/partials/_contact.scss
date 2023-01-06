@@ -1,0 +1,114 @@
+@import 'var';
+
+#contact_top {
+    background: url(/images/map.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .map_overly{
+        padding: 22rem 0 13rem 0;
+        background: #1f0743ed;
+        .game_card_bd {
+            position: relative;
+    
+            .game_card {
+                width: 117rem;
+                // border-radius: 1rem;
+                // background: #6318d1;
+                position: absolute;
+                top: -33rem;
+                left: 0;
+    
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+    
+                .game_card_item {
+                    @include flexpro;
+                    padding: 4rem 3.3rem;
+                    // color: white;
+    
+                    h1 {
+                        font-size: 5rem;
+                        font-weight: 400;
+                        @include Anton_font();
+                        color: $main_text;
+                        transition: .3s all;
+                    }
+    
+                    h2 {
+                        @include sub_title;
+                        transition: .3s all;
+    
+                    }
+    
+                    p {
+                        @include pragrp_pro;
+                    }
+    
+                    &:hover h1 {
+                        text-shadow: 1rem .7rem #414040ad;
+                    }
+    
+                    &:hover h2 {
+                        text-shadow: 1rem .7rem #414040ad;
+                    }
+                }
+            }
+        }
+        .map{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            
+            .map_item{
+                position: relative;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 3rem;
+                &::after{
+                    position: absolute;
+                    content: "";
+                    width: 25%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    @include bg_grdn;
+                    border-radius: 1rem;
+                    transition: .3s;
+                }
+                &:hover::after{
+                    width: 90%;
+                }
+               
+                .map_icon{
+                    height: 10rem;
+                    width: 10rem;
+                    z-index: 99;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 4rem;
+                    color: white;
+                    border-radius: 1rem;
+                    transition: .3s;
+                }
+                .map_text{
+                    z-index: 99;
+                    h3{
+                        font-size: 2.4rem;
+                        font-weight: 400;
+                        @include Anton_font;
+                        text-transform: uppercase;
+                        color: white;
+                    }
+                    p{
+                        @include pragrp_pro;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+  
+}

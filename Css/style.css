@@ -1,0 +1,138 @@
+/* Google font  */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+/* All common css ar here  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none !important;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    scroll-behavior: smooth;
+}
+.menu_active{
+    color: #ff39dc !important;
+}
+
+/* .container{
+    width: 117rem;
+    margin: 0 auto;
+    pad: 5px 0;
+    overflow: hidden;
+} */
+html{
+    scroll-behavior: smooth;
+}
+.white{
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(3px);
+}
+.imag{
+    width: 70% !important;
+}
+
+.add_log{
+    font-size: 1.5rem !important;
+    padding: 0.5rem 3rem !important;
+}
+.ul_m_remove{
+    margin-top: 2rem !important;
+}
+.add_menu{
+    font-size: 1.5rem !important;
+}
+
+
+/* header part css start here*/
+::-webkit-scrollbar{
+    width: 1rem;
+    
+    background: #000;
+}
+::-webkit-scrollbar-track{
+    background: black;
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to bottom, #0b001b, #1e1640, #352468, #503193, #6e3ebf, #8541cf, #9d43df, #b644ee, #c63de4, #d336da, #de30d0, #e82ac6);
+    width: 4rem;
+    border-radius: 1rem;
+}
+
+/* coustom scroll bar  */
+.mCSB_draggerContainer{ 
+    background-color: rgba(255, 0, 0, 0); 
+}
+.mCSB_dragger{
+     background-color: #2a0561; 
+     width: 2rem;
+     border-radius: 1rem;
+    }
+    .mCS-my-theme.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background-color: #300670 }
+    .mCS-my-theme.mCSB_scrollTools .mCSB_draggerRail{ 
+        background-color: rgba(0, 0, 0, 0.704); 
+        width: 3px;
+        border-right: 1px solid rgba(57, 57, 57, 0.656);
+    }
+
+
+    .block_img{
+        background: url(../images/block1.png);
+        /* background-size: cover; */
+        background-position: center;
+        /* background-repeat: no-repeat; */
+        border-radius: 10px;
+    }
+    .block_img2{
+        background: url(../images/block2.png);
+        background-position: center;
+    }
+    .block_img3{
+        background: url(../images/block3.png);
+        background-position: center;
+    }
+
+    .m_5rem_0{
+        margin: 4rem 0;
+    }
+    .m_2rem_0{
+        margin: 2rem 0;
+    }
+
+    .signup_active{
+        background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca) !important;
+        text-shadow: 5px 5px #414040 !important;
+    }
+    label{
+        display: block;
+    }
+
+    #About_game .related_item_body .related_item .related_overly a {
+        margin-top: 5rem;
+        padding: 1.5rem 3rem;
+        background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+        font-size: 1.4rem;
+    }
+    /* preloader  */
+    #preloader{
+        background: rgba(17, 17, 17, 0.462) url(../images/96x96.gif) no-repeat center center;
+        background-size: 10%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 999999999;
+        transition: .2s ease-in-out;
+    }
+    

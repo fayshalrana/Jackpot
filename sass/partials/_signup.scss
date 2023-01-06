@@ -1,0 +1,209 @@
+@import 'var';
+
+#singup_body {
+   background: #150035;
+    padding: 10rem 0;
+    .game_card_bd {
+        position: relative;
+
+        .game_card {
+            width: 100%;
+            position: absolute;
+            top: -17rem;
+            left: 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            .game_card_item {
+                @include flexpro;
+                padding: 4rem 3.3rem;
+                // color: white;
+
+                h1 {
+                    font-size: 5rem;
+                    font-weight: 400;
+                    @include Anton_font();
+                    color: $main_text;
+                    transition: .3s all;
+                }
+
+                h2 {
+                    @include sub_title;
+                    transition: .3s all;
+
+                }
+
+                p {
+                    @include pragrp_pro;
+                }
+
+                &:hover h1 {
+                    text-shadow: 1rem .7rem #414040ad;
+                }
+
+                &:hover h2 {
+                    text-shadow: 1rem .7rem #414040ad;
+                }
+            }
+        }
+    }
+    .singup_container{
+        padding-top: 10rem;
+        display: flex;
+        gap: 3rem;
+        .big_win_img{
+            text-align: center;
+            width: 45%;
+            img{
+                width: 120%;
+            }
+        }
+        .signup_form{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 65%;
+            .signup_top{
+                position: relative;
+                :after{
+                    content: "";
+                    position: absolute;
+                    width: 6rem;
+                    height: 0.5rem;
+                    background: rgb(255, 255, 255);
+                    left: 0;
+                    bottom: -2rem;
+                    border-radius: 1rem
+                }
+                h3{
+                    @include sub_title();
+                }
+                p{
+                    @include pragrp_pro;
+                    text-align: left;
+                }
+            }
+            .user_form{
+                width: 100%;
+                margin-top: 5rem;
+                .form_head{
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 4rem;
+                    width: 100%;
+                    .full_name{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                        border-bottom: .1rem solid rgb(255, 255, 255);
+                        color: white;
+                        input{
+                            border: none;
+                            outline: none;
+                            background: none;
+                            color: white;
+                            padding: .5rem 0;
+                            font-size: 1.4rem;
+                            font-weight: 600;
+                            @include Nunito_font;
+                        }
+                    }
+                }
+                .form_bottom{
+                    .email{
+                        display: flex;
+                        width: 100%;
+                        justify-content: space-between;
+
+                        border-bottom: 1px solid white;
+                        color: white;
+                        input{
+                            background: none;
+                            border: none;
+                            outline: none;
+                            color: white;
+                            font-size: 1.4rem;
+                            @include Nunito_font;
+                            font-weight: 600;
+                           
+                        }
+                    }
+                    button{
+                        width: 100%;
+                        padding: 1rem 0;
+                        text-align: center;
+                        font-size: 2rem;
+                        color: white;
+                        @include Anton_font;
+                        @include bg_grdn2;
+                        outline: none;
+                        border: none;
+                        border-radius: 1rem;
+                        transition: .3s;
+                        &:hover{
+                            box-shadow: 0 .6rem 0 $deep_blue;
+                            text-shadow: .4rem .4rem rgb(51, 50, 50);
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .form_footer{
+                display: flex;
+                align-items: center;
+                margin-top: 1.5rem;
+                width: 100%;
+                justify-content: space-between;
+                .account{
+                    p{
+                        @include pragrp_pro;
+                        text-align-last: left;
+                        span{
+                            margin-left: 1rem;
+                            a{
+                                color: #ff39dc;
+                            }
+                        }
+                    }
+                }
+                .register{
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    p{
+                        @include pragrp_pro;
+                    }
+                    .social_icon {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        gap: 1.5rem;
+        
+                        .social_item {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 5rem;
+                            width: 5rem;
+                            @include bg_grdn;
+                            transition: .3s all;
+                            &:hover{
+                                @include bg_grdn2;
+                                box-shadow: .4rem .4rem .7rem #3b0336;
+                                transform: scale(1.1);
+                            }
+                            a {
+                                font-size: 1.5rem;
+                                color: wheat;
+                            }
+                        }
+        
+                    }
+                }
+                
+            }
+        }
+    }
+  
+}

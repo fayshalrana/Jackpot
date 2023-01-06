@@ -1,0 +1,1436 @@
+#header {
+  position: fixed;
+  width: 100%;
+  padding-bottom: 1rem;
+  z-index: 999;
+  transition: 0.3s;
+}
+#header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .navbar .logo {
+  width: 15%;
+  display: inline;
+}
+#header .navbar .logo a img {
+  width: 100%;
+  transition: 0.3s;
+}
+#header .navbar .collapse {
+  margin-top: 2rem;
+}
+#header .navbar .collapse ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0 !important;
+}
+#header .navbar .collapse ul li {
+  margin: 0 1.5rem;
+  display: flex;
+  align-items: center;
+}
+#header .navbar .collapse ul li a {
+  font-family: "Nunito", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #944bff;
+  transition: 0.3s ease-in-out;
+}
+#header .navbar .collapse ul li:hover a {
+  color: #ff39dc;
+}
+#header .navbar .nav_button {
+  display: flex;
+}
+#header .navbar .nav_button button {
+  font-family: "Anton", sans-serif;
+  padding: 1.5rem 3rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 3px 1px #414040;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+#header .navbar .nav_button .singup {
+  background-image: linear-gradient(to bottom, #fc37d9, #e72bc4, #d21faf, #bd129a, #a90287);
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+#header .navbar .nav_button .singup:hover {
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  text-shadow: 5px 5px #414040;
+}
+#header .navbar .nav_button .login {
+  background-image: linear-gradient(to bottom, #fc37d9, #e72bc4, #d21faf, #bd129a, #a90287);
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+#header .navbar .nav_button .login:hover {
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  text-shadow: 5px 5px #414040;
+}
+
+#banner {
+  padding: 15rem 0;
+  background: #150035;
+}
+#banner .bannerc_contant {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#banner .bannerc_contant .banner_ing {
+  width: 50%;
+}
+#banner .bannerc_contant .banner_ing img {
+  width: 100%;
+}
+#banner .bannerc_contant .banner_text {
+  margin-left: 40px;
+  width: 50%;
+}
+#banner .bannerc_contant .banner_text h4 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: -4rem;
+}
+#banner .bannerc_contant .banner_text h1 {
+  font-size: 33rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: #f8a709;
+  text-shadow: 0px 0px 30px #d21faf;
+}
+#banner .bannerc_contant .banner_text .btex_btm {
+  text-align: center;
+  padding-right: 20rem;
+}
+#banner .bannerc_contant .banner_text .btex_btm p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  margin-top: -4rem;
+  margin-bottom: 3rem;
+  line-height: 2.6rem;
+}
+#banner .bannerc_contant .banner_text .btex_btm a {
+  padding: 1.5rem 3rem;
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  font-size: 2.4rem;
+  font-family: "Anton", sans-serif;
+  border-radius: 1rem;
+  color: white;
+  transition: 0.3s all;
+}
+#banner .bannerc_contant .banner_text .btex_btm a:hover {
+  background-image: linear-gradient(to bottom, #6b21d6, #590fca, #7c30e2, #9d4cfb, #8d3eef);
+  box-shadow: 0px 6px 0px rgba(58, 0, 144, 0.6352941176);
+  text-shadow: 0.4rem 0.4rem #150035;
+}
+
+#Related_game {
+  padding-bottom: 10rem;
+  background: #0b001b;
+}
+#Related_game .game_card_bd {
+  position: relative;
+}
+#Related_game .game_card_bd .game_card {
+  border-radius: 1rem;
+  background: #6318d1;
+  position: absolute;
+  top: -10rem;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#Related_game .game_card_bd .game_card .game_card_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 3.3rem;
+  color: white;
+}
+#Related_game .game_card_bd .game_card .game_card_item h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: #f8a709;
+  transition: 0.3s all;
+}
+#Related_game .game_card_bd .game_card .game_card_item h2 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: white;
+  transition: 0.3s all;
+}
+#Related_game .game_card_bd .game_card .game_card_item p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+}
+#Related_game .game_card_bd .game_card .game_card_item:hover h1 {
+  text-shadow: 1rem 0.7rem rgba(65, 64, 64, 0.6784313725);
+}
+#Related_game .game_card_bd .game_card .game_card_item:hover h2 {
+  text-shadow: 1rem 0.7rem rgba(65, 64, 64, 0.6784313725);
+}
+#Related_game .game_head {
+  padding-top: 17rem;
+}
+#Related_game .game_head h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  color: #f8a709;
+  text-align: center;
+  text-shadow: 0rem 0rem 4rem #9d4cfb;
+}
+#Related_game .related_item_body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  margin-top: 6rem;
+}
+#Related_game .related_item_body .related_item {
+  position: relative;
+}
+#Related_game .related_item_body .related_item .related_item_img img {
+  width: 100%;
+}
+#Related_game .related_item_body .related_item .related_overly {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  background: rgba(48, 6, 112, 0.661);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#Related_game .related_item_body .related_item .related_overly h3 {
+  position: absolute;
+  right: -20%;
+  top: 40%;
+  font-size: 2.4rem;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: white;
+  transition: 0.3s;
+}
+#Related_game .related_item_body .related_item .related_overly a {
+  margin-top: 5rem;
+  padding: 1.5rem 3rem;
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  font-size: 2.4rem;
+  font-family: "Anton", sans-serif;
+  border-radius: 1rem;
+  color: white;
+  transition: 0.3s all;
+  position: absolute;
+  left: -20%;
+  bottom: 20%;
+}
+#Related_game .related_item_body .related_item .related_overly a:hover {
+  background-image: linear-gradient(to bottom, #6b21d6, #590fca, #7c30e2, #9d4cfb, #8d3eef);
+  box-shadow: 0px 6px 0px rgba(58, 0, 144, 0.6352941176);
+  text-shadow: 0.4rem 0.4rem #150035;
+}
+#Related_game .related_item_body .related_item .related_overly:hover a {
+  left: 50%;
+  transform: translateX(-50%);
+}
+#Related_game .related_item_body .related_item .related_overly:hover h3 {
+  right: 50%;
+  transform: translateX(50%);
+}
+#Related_game .related_item_body .related_item:hover .related_overly {
+  opacity: 0.9;
+  visibility: visible;
+}
+
+#free_spin {
+  padding-top: 10rem;
+  background: #150035;
+}
+#free_spin .spin_body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15rem;
+}
+#free_spin .spin_body .spin_img {
+  text-align: center;
+}
+#free_spin .spin_body .spin_img img {
+  width: 95%;
+}
+#free_spin .spin_body .fress_spin_text h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  color: #f8a709;
+  text-align: center;
+  text-shadow: 0rem 0rem 4rem #9d4cfb;
+  text-align: left;
+}
+#free_spin .spin_body .fress_spin_text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+  text-align: left;
+  padding: 7rem 0;
+}
+#free_spin .spin_body .fress_spin_text p span {
+  display: block;
+  padding-top: 4rem;
+}
+#free_spin .spin_body .fress_spin_text a {
+  padding: 1.5rem 3rem;
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  font-size: 2.4rem;
+  font-family: "Anton", sans-serif;
+  border-radius: 1rem;
+  color: white;
+  transition: 0.3s all;
+}
+#free_spin .spin_body .fress_spin_text a:hover {
+  background-image: linear-gradient(to bottom, #6b21d6, #590fca, #7c30e2, #9d4cfb, #8d3eef);
+  box-shadow: 0px 6px 0px rgba(58, 0, 144, 0.6352941176);
+  text-shadow: 0.4rem 0.4rem #150035;
+}
+
+#pricing {
+  padding: 10rem 0;
+  background: #0b001b;
+}
+#pricing .pricing_head {
+  text-align: center;
+}
+#pricing .pricing_head h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  color: #f8a709;
+  text-align: center;
+  text-shadow: 0rem 0rem 4rem #9d4cfb;
+}
+#pricing .pricing_body {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+#pricing .pricing_body .pricing_item {
+  position: relative;
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  padding: 4rem 0;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+#pricing .pricing_body .pricing_item:hover h3 {
+  text-shadow: 3px 5px rgba(11, 0, 27, 0.5607843137);
+}
+#pricing .pricing_body .pricing_item:hover {
+  transform: scaleY(1.1);
+}
+#pricing .pricing_body .pricing_item:hover .price_item_head {
+  top: -3%;
+  opacity: 0.9;
+  visibility: visible;
+}
+#pricing .pricing_body .pricing_item:hover a {
+  background-image: linear-gradient(to bottom, #fc37d9, #e72bc3, #d21fae, #bd1299, #a80285);
+}
+#pricing .pricing_body .pricing_item h3 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: white;
+  transition: 0.3s all;
+}
+#pricing .pricing_body .pricing_item h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+#pricing .pricing_body .pricing_item p {
+  font-size: 1.4rem;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 3rem;
+}
+#pricing .pricing_body .pricing_item hr {
+  background: rgb(76, 76, 76);
+  margin-bottom: 2rem;
+}
+#pricing .pricing_body .pricing_item span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+  line-height: 4rem;
+  display: block;
+}
+#pricing .pricing_body .pricing_item a {
+  padding: 1.5rem 3rem;
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  font-size: 2.4rem;
+  font-family: "Anton", sans-serif;
+  border-radius: 1rem;
+  color: white;
+  transition: 0.3s all;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.3rem;
+}
+#pricing .pricing_body .pricing_item a:hover {
+  background-image: linear-gradient(to bottom, #6b21d6, #590fca, #7c30e2, #9d4cfb, #8d3eef);
+  box-shadow: 0px 6px 0px rgba(58, 0, 144, 0.6352941176);
+  text-shadow: 0.4rem 0.4rem #150035;
+}
+#pricing .pricing_body .pricing_item .price_item_head {
+  position: absolute;
+  top: -15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgb(239, 8, 197);
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s;
+  visibility: hidden;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  box-shadow: 0rem 0.5rem 0rem #414040;
+  z-index: 5;
+}
+
+#faq {
+  padding: 10rem 0;
+  background: #150035;
+}
+#faq .faq_body {
+  display: flex;
+  gap: 3rem;
+}
+#faq .faq_body .faq_left {
+  width: 60%;
+}
+#faq .faq_body .faq_left h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  color: #f8a709;
+  text-align: center;
+  text-shadow: 0rem 0rem 4rem #9d4cfb;
+  text-align: left;
+  padding-bottom: 3rem;
+}
+#faq .faq_body .faq_left hr {
+  border: none;
+  background: #000;
+  height: 0.2rem;
+  border-bottom: 2px solid #290a59 !important;
+}
+#faq .faq_body .faq_left .left_bdy {
+  margin-top: 5rem;
+}
+#faq .faq_body .faq_right {
+  width: 40%;
+}
+#faq .faq_body .faq_right h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  color: #f8a709;
+  text-align: center;
+  text-shadow: 0rem 0rem 4rem #9d4cfb;
+  text-align: left;
+  text-align: left;
+  padding-bottom: 3rem;
+}
+#faq .faq_body .faq_right hr {
+  border: none;
+  background: #000;
+  height: 0.2rem;
+  border-bottom: 2px solid #290a59 !important;
+}
+#faq .faq_body .faq_right .tournaments_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+#faq .faq_body .faq_right .tournaments_head h3 {
+  font-size: 2rem;
+  color: white;
+}
+#faq .faq_body .faq_right .tournaments_head .cntr_item {
+  border: 1px solid #f8a709;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+#faq .faq_body .faq_right .tournaments_head .cntr_item h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  color: #f8a709;
+}
+#faq .faq_body .faq_right .tournaments_head .cntr_item span {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  color: #f8a709;
+}
+#faq .faq_body .faq_right .scroll_box {
+  margin: 3rem 0;
+  max-height: 25rem;
+  width: 100%;
+  overflow: auto;
+}
+#faq .faq_body .faq_right .scroll_box .scroll_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  padding-right: 2rem;
+}
+#faq .faq_body .faq_right .scroll_box .scroll_item p {
+  width: 40%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+#faq .faq_body .faq_right .scroll_box .scroll_item span {
+  width: 10%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+#faq .faq_body .faq_right .scroll_box .scroll_item .trnmnt_img {
+  width: 20%;
+  text-align: center;
+}
+
+#newslatter {
+  padding: 3.5rem 0;
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+}
+#newslatter .newslatter_body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 13rem;
+}
+#newslatter .newslatter_body .latter .latter_header {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 0.6rem 0.6rem #414040;
+  margin-bottom: 2rem;
+}
+#newslatter .newslatter_body .latter form .input {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.453);
+}
+#newslatter .newslatter_body .latter form .input input {
+  padding: 1.5rem;
+  width: 90%;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+#newslatter .newslatter_body .latter form .input input::-moz-placeholder {
+  font-size: 1 0.4rem;
+  color: rgba(0, 0, 0, 0.453);
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+#newslatter .newslatter_body .latter form .input input:-ms-input-placeholder {
+  font-size: 1 0.4rem;
+  color: rgba(0, 0, 0, 0.453);
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+#newslatter .newslatter_body .latter form .input input::placeholder {
+  font-size: 1 0.4rem;
+  color: rgba(0, 0, 0, 0.453);
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+#newslatter .newslatter_body .latter form .input .snt_btn {
+  width: 10%;
+  padding: 1.5rem;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.453);
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.453);
+  cursor: pointer;
+}
+#newslatter .newslatter_body .pament .pament_header {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 0.6rem 0.6rem #414040;
+  margin-bottom: 2rem;
+}
+#newslatter .newslatter_body .pament .payment_cards {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+#newslatter .newslatter_body .pament .payment_cards img {
+  width: 100%;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#newslatter .newslatter_body .pament .payment_cards img:hover {
+  box-shadow: 0.4rem 0.6rem 0rem rgba(58, 0, 144, 0.6352941176);
+  transform: scale(1.1);
+}
+
+#contact {
+  padding: 6rem 0;
+  background: #0b001b;
+}
+#contact .contact_body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4rem;
+}
+#contact .contact_body .about .about_head {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: white;
+  margin-bottom: 3rem;
+}
+#contact .contact_body .about .about_text p {
+  font-size: 1.6rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  color: white;
+  padding-bottom: 3rem;
+}
+#contact .contact_body .about .social_icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+#contact .contact_body .about .social_icon .social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: 5rem;
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  transition: 0.3s all;
+}
+#contact .contact_body .about .social_icon .social_item:hover {
+  background-image: linear-gradient(to bottom, #fc37d9, #e72bc3, #d21fae, #bd1299, #a80285);
+  box-shadow: 0.4rem 0.4rem 0.7rem #3b0336;
+  transform: scale(1.1);
+}
+#contact .contact_body .about .social_icon .social_item a {
+  font-size: 1.5rem;
+  color: wheat;
+}
+#contact .contact_body .links .links_head {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: white;
+  margin-bottom: 3rem;
+}
+#contact .contact_body .links .important_links {
+  display: flex;
+  gap: 6rem;
+}
+#contact .contact_body .links .important_links a {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+  text-align: left;
+  margin-bottom: 1.2rem;
+}
+#contact .contact_body .security .security_head {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: white;
+  margin-bottom: 3rem;
+}
+#contact .contact_body .security .security_body .security_item {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+#contact .contact_body .security .security_body .security_item .security_text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+  text-align: left;
+}
+
+#footer {
+  padding: 2rem 0;
+  background: #0b001b;
+}
+#footer p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+}
+
+hr {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#banner .bannerc_contant .About_text h3 {
+  font-size: 30px;
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  color: #f8a709;
+  text-align: center;
+  text-shadow: 0rem 0rem 4rem #9d4cfb;
+}
+#banner .bannerc_contant .About_text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-size: 2.4rem;
+  transition: 0.3s;
+}
+#banner .bannerc_contant .About_text p a {
+  color: white;
+}
+#banner .bannerc_contant .About_text p:hover {
+  text-shadow: 0.6rem 0.6rem #0b001b;
+}
+
+#About_spin {
+  padding-bottom: 10rem;
+  background: #0b001b;
+}
+#About_spin .game_card_bd {
+  position: relative;
+}
+#About_spin .game_card_bd .game_card {
+  width: 100%;
+  border-radius: 1rem;
+  background: #6318d1;
+  position: absolute;
+  top: -12rem;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#About_spin .game_card_bd .game_card .game_card_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 3.3rem;
+  color: white;
+}
+#About_spin .game_card_bd .game_card .game_card_item h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: #f8a709;
+  transition: 0.3s all;
+}
+#About_spin .game_card_bd .game_card .game_card_item h2 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: white;
+  transition: 0.3s all;
+}
+#About_spin .game_card_bd .game_card .game_card_item p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+}
+#About_spin .game_card_bd .game_card .game_card_item:hover h1 {
+  text-shadow: 1rem 0.7rem rgba(65, 64, 64, 0.6784313725);
+}
+#About_spin .game_card_bd .game_card .game_card_item:hover h2 {
+  text-shadow: 1rem 0.7rem rgba(65, 64, 64, 0.6784313725);
+}
+#About_spin .spin_body {
+  padding-top: 17rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10rem;
+}
+#About_spin .spin_body .spin_img {
+  text-align: center;
+}
+#About_spin .spin_body .spin_img img {
+  width: 80%;
+}
+#About_spin .spin_body .fress_spin_text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#About_spin .spin_body .fress_spin_text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+#About_spin .spin_body .fress_spin_text p span {
+  display: block;
+  padding-top: 4rem;
+}
+#About_spin .spin_body .fress_spin_text .spin_btn {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+#About_spin .spin_body .fress_spin_text .spin_btn a {
+  padding: 1.5rem 3rem;
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  font-size: 2.4rem;
+  font-family: "Anton", sans-serif;
+  border-radius: 1rem;
+  color: white;
+  transition: 0.3s all;
+}
+#About_spin .spin_body .fress_spin_text .spin_btn a:hover {
+  background-image: linear-gradient(to bottom, #6b21d6, #590fca, #7c30e2, #9d4cfb, #8d3eef);
+  box-shadow: 0px 6px 0px rgba(58, 0, 144, 0.6352941176);
+  text-shadow: 0.4rem 0.4rem #150035;
+}
+#About_spin .spin_body .fress_spin_text .spin_btn .play {
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  font-size: 2rem;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#About_spin .spin_body .fress_spin_text .spin_btn .play a {
+  background: none;
+  padding: 0;
+  box-shadow: none;
+  color: black;
+}
+#About_spin .spin_body .fress_spin_text .spin_btn .play:hover {
+  background: #9d4cfb;
+}
+#About_spin .spin_body .fress_spin_text .spin_btn span {
+  font-size: 1.6rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: #9d4cfb;
+  margin-right: 1rem;
+  transition: 0.3s;
+}
+
+#About_game {
+  padding-bottom: 10rem;
+  background: #150035;
+}
+#About_game .game_head {
+  padding-top: 10rem;
+}
+#About_game .game_head h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  color: #f8a709;
+  text-align: center;
+  text-shadow: 0rem 0rem 4rem #9d4cfb;
+}
+#About_game .related_item_body {
+  display: flex;
+  grid-gap: 3rem;
+  margin-top: 6rem;
+}
+#About_game .related_item_body .related_item {
+  position: relative;
+}
+#About_game .related_item_body .related_item .related_item_img img {
+  width: 100%;
+}
+#About_game .related_item_body .related_item .related_overly {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  background: rgba(48, 6, 112, 0.661);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#About_game .related_item_body .related_item .related_overly h3 {
+  position: absolute;
+  right: -20%;
+  top: 40%;
+  font-size: 2.4rem;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: white;
+  transition: 0.3s;
+}
+#About_game .related_item_body .related_item .related_overly a {
+  margin-top: 5rem;
+  padding: 1.5rem 3rem;
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  font-size: 2.4rem;
+  font-family: "Anton", sans-serif;
+  border-radius: 1rem;
+  color: white;
+  transition: 0.3s all;
+  position: absolute;
+  left: -20%;
+  bottom: 20%;
+}
+#About_game .related_item_body .related_item .related_overly a:hover {
+  background-image: linear-gradient(to bottom, #6b21d6, #590fca, #7c30e2, #9d4cfb, #8d3eef);
+  box-shadow: 0px 6px 0px rgba(58, 0, 144, 0.6352941176);
+  text-shadow: 0.4rem 0.4rem #150035;
+}
+#About_game .related_item_body .related_item .related_overly:hover a {
+  left: 50%;
+  transform: translateX(-50%);
+}
+#About_game .related_item_body .related_item .related_overly:hover h3 {
+  right: 50%;
+  transform: translateX(50%);
+}
+#About_game .related_item_body .related_item:hover .related_overly {
+  opacity: 0.9;
+  visibility: visible;
+}
+
+.pricing {
+  background: #0b001b;
+}
+.pricing .pricing_head {
+  text-align: center;
+}
+.pricing .pricing_head h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  color: #f8a709;
+  text-align: center;
+  text-shadow: 0rem 0rem 4rem #9d4cfb;
+}
+.pricing .pricing_body {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  grid-row-gap: 10rem;
+}
+.pricing .pricing_body .pricing_item {
+  position: relative;
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  padding: 4rem 0;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+.pricing .pricing_body .pricing_item:hover h3 {
+  text-shadow: 3px 5px rgba(11, 0, 27, 0.5607843137);
+}
+.pricing .pricing_body .pricing_item:hover {
+  transform: scaleY(1.1);
+}
+.pricing .pricing_body .pricing_item:hover .price_item_head {
+  top: -3%;
+  opacity: 0.9;
+  visibility: visible;
+}
+.pricing .pricing_body .pricing_item:hover a {
+  background-image: linear-gradient(to bottom, #fc37d9, #e72bc3, #d21fae, #bd1299, #a80285);
+}
+.pricing .pricing_body .pricing_item h3 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: white;
+  transition: 0.3s all;
+}
+.pricing .pricing_body .pricing_item h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+.pricing .pricing_body .pricing_item p {
+  font-size: 1.4rem;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 3rem;
+}
+.pricing .pricing_body .pricing_item hr {
+  background: rgb(76, 76, 76);
+  margin-bottom: 2rem;
+}
+.pricing .pricing_body .pricing_item span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+  line-height: 4rem;
+  display: block;
+}
+.pricing .pricing_body .pricing_item a {
+  padding: 1.5rem 3rem;
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  font-size: 2.4rem;
+  font-family: "Anton", sans-serif;
+  border-radius: 1rem;
+  color: white;
+  transition: 0.3s all;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.2rem;
+}
+.pricing .pricing_body .pricing_item a:hover {
+  background-image: linear-gradient(to bottom, #6b21d6, #590fca, #7c30e2, #9d4cfb, #8d3eef);
+  box-shadow: 0px 6px 0px rgba(58, 0, 144, 0.6352941176);
+  text-shadow: 0.4rem 0.4rem #150035;
+}
+.pricing .pricing_body .pricing_item .price_item_head {
+  position: absolute;
+  top: -15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgb(239, 8, 197);
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s;
+  visibility: hidden;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  box-shadow: 0rem 0.5rem 0rem #414040;
+  z-index: 5;
+}
+
+#contact_top {
+  background: url(/images/map.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#contact_top .map_overly {
+  padding: 22rem 0 13rem 0;
+  background: rgba(31, 7, 67, 0.9294117647);
+}
+#contact_top .map_overly .game_card_bd {
+  position: relative;
+}
+#contact_top .map_overly .game_card_bd .game_card {
+  width: 117rem;
+  position: absolute;
+  top: -33rem;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#contact_top .map_overly .game_card_bd .game_card .game_card_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 3.3rem;
+}
+#contact_top .map_overly .game_card_bd .game_card .game_card_item h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: #f8a709;
+  transition: 0.3s all;
+}
+#contact_top .map_overly .game_card_bd .game_card .game_card_item h2 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: white;
+  transition: 0.3s all;
+}
+#contact_top .map_overly .game_card_bd .game_card .game_card_item p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+}
+#contact_top .map_overly .game_card_bd .game_card .game_card_item:hover h1 {
+  text-shadow: 1rem 0.7rem rgba(65, 64, 64, 0.6784313725);
+}
+#contact_top .map_overly .game_card_bd .game_card .game_card_item:hover h2 {
+  text-shadow: 1rem 0.7rem rgba(65, 64, 64, 0.6784313725);
+}
+#contact_top .map_overly .map {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#contact_top .map_overly .map .map_item {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+}
+#contact_top .map_overly .map .map_item::after {
+  position: absolute;
+  content: "";
+  width: 25%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+#contact_top .map_overly .map .map_item:hover::after {
+  width: 90%;
+}
+#contact_top .map_overly .map .map_item .map_icon {
+  height: 10rem;
+  width: 10rem;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: white;
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+#contact_top .map_overly .map .map_item .map_text {
+  z-index: 99;
+}
+#contact_top .map_overly .map .map_item .map_text h3 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+#contact_top .map_overly .map .map_item .map_text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+  text-align: left;
+}
+
+#singup_body {
+  background: #150035;
+  padding: 10rem 0;
+}
+#singup_body .game_card_bd {
+  position: relative;
+}
+#singup_body .game_card_bd .game_card {
+  width: 100%;
+  position: absolute;
+  top: -17rem;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#singup_body .game_card_bd .game_card .game_card_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 3.3rem;
+}
+#singup_body .game_card_bd .game_card .game_card_item h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: #f8a709;
+  transition: 0.3s all;
+}
+#singup_body .game_card_bd .game_card .game_card_item h2 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: white;
+  transition: 0.3s all;
+}
+#singup_body .game_card_bd .game_card .game_card_item p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+}
+#singup_body .game_card_bd .game_card .game_card_item:hover h1 {
+  text-shadow: 1rem 0.7rem rgba(65, 64, 64, 0.6784313725);
+}
+#singup_body .game_card_bd .game_card .game_card_item:hover h2 {
+  text-shadow: 1rem 0.7rem rgba(65, 64, 64, 0.6784313725);
+}
+#singup_body .singup_container {
+  padding-top: 10rem;
+  display: flex;
+  gap: 3rem;
+}
+#singup_body .singup_container .big_win_img {
+  text-align: center;
+  width: 45%;
+}
+#singup_body .singup_container .big_win_img img {
+  width: 120%;
+}
+#singup_body .singup_container .signup_form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 65%;
+}
+#singup_body .singup_container .signup_form .signup_top {
+  position: relative;
+}
+#singup_body .singup_container .signup_form .signup_top :after {
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 0.5rem;
+  background: rgb(255, 255, 255);
+  left: 0;
+  bottom: -2rem;
+  border-radius: 1rem;
+}
+#singup_body .singup_container .signup_form .signup_top h3 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  color: white;
+}
+#singup_body .singup_container .signup_form .signup_top p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+  text-align: left;
+}
+#singup_body .singup_container .signup_form .user_form {
+  width: 100%;
+  margin-top: 5rem;
+}
+#singup_body .singup_container .signup_form .user_form .form_head {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  width: 100%;
+}
+#singup_body .singup_container .signup_form .user_form .form_head .full_name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 0.1rem solid rgb(255, 255, 255);
+  color: white;
+}
+#singup_body .singup_container .signup_form .user_form .form_head .full_name input {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  padding: 0.5rem 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+#singup_body .singup_container .signup_form .user_form .form_bottom .email {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  color: white;
+}
+#singup_body .singup_container .signup_form .user_form .form_bottom .email input {
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1.4rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+#singup_body .singup_container .signup_form .user_form .form_bottom button {
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-family: "Anton", sans-serif;
+  background-image: linear-gradient(to bottom, #fc37d9, #e72bc3, #d21fae, #bd1299, #a80285);
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+#singup_body .singup_container .signup_form .user_form .form_bottom button:hover {
+  box-shadow: 0 0.6rem 0 #0b001b;
+  text-shadow: 0.4rem 0.4rem rgb(51, 50, 50);
+  cursor: pointer;
+}
+#singup_body .singup_container .signup_form .form_footer {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  width: 100%;
+  justify-content: space-between;
+}
+#singup_body .singup_container .signup_form .form_footer .account p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+#singup_body .singup_container .signup_form .form_footer .account p span {
+  margin-left: 1rem;
+}
+#singup_body .singup_container .signup_form .form_footer .account p span a {
+  color: #ff39dc;
+}
+#singup_body .singup_container .signup_form .form_footer .register {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#singup_body .singup_container .signup_form .form_footer .register p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+}
+#singup_body .singup_container .signup_form .form_footer .register .social_icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+#singup_body .singup_container .signup_form .form_footer .register .social_icon .social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: 5rem;
+  background-image: linear-gradient(to bottom, #9d4cfb, #8d3eef, #7c30e2, #6b21d6, #590fca);
+  transition: 0.3s all;
+}
+#singup_body .singup_container .signup_form .form_footer .register .social_icon .social_item:hover {
+  background-image: linear-gradient(to bottom, #fc37d9, #e72bc3, #d21fae, #bd1299, #a80285);
+  box-shadow: 0.4rem 0.4rem 0.7rem #3b0336;
+  transform: scale(1.1);
+}
+#singup_body .singup_container .signup_form .form_footer .register .social_icon .social_item a {
+  font-size: 1.5rem;
+  color: wheat;
+}/*# sourceMappingURL=main.css.map */

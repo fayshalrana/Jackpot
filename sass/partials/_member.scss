@@ -1,0 +1,101 @@
+.pricing {
+    background: $deep_blue;
+
+    .pricing_head {
+        text-align: center;
+
+        h3 {
+            @include main_header;
+        }
+    }
+
+    .pricing_body {
+        margin-top: 8rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3rem;
+        grid-row-gap: 10rem;
+
+        .pricing_item {
+            position: relative;
+            @include bg_grdn;
+            padding: 4rem 0;
+            text-align: center;
+            transition: .3s;
+            border-radius: .8rem;
+            cursor: pointer;
+
+            &:hover h3 {
+                text-shadow: 3px 5px #0b001b8f;
+            }
+
+            &:hover {
+                transform: scaleY(1.1);
+            }
+
+            &:hover .price_item_head {
+                top: -3%;
+                opacity: .9;
+                visibility: visible;
+            }
+
+            &:hover a {
+                background-image: linear-gradient(to bottom, #fc37d9, #e72bc3, #d21fae, #bd1299, #a80285);
+            }
+
+            h3 {
+                @include sub_title;
+                transition: .3s all;
+            }
+
+            h2 {
+                font-size: 5rem;
+                font-weight: 700;
+                @include Nunito_font;
+                color: white;
+            }
+
+            p {
+                font-size: 1.4rem;
+                color: white;
+                @include Nunito_font;
+                padding-bottom: 3rem;
+            }
+
+            hr {
+                background: rgb(76, 76, 76);
+                margin-bottom: 2rem;
+            }
+
+            span {
+                @include pragrp_pro;
+                line-height: 4rem;
+                display: block;
+            }
+
+            a {
+                @include main_btn;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 2.2rem;
+            }
+
+            .price_item_head {
+                position: absolute;
+                top: -15%;
+                left: 50%;
+                transform: translateX(-50%);
+                background: rgb(239, 8, 197);
+                width: 100%;
+                opacity: 0;
+                transition: .3s;
+                visibility: hidden;
+                border-top-left-radius: .5rem;
+                border-top-right-radius: .5rem;
+                box-shadow: 0rem .5rem 0rem #414040;
+                z-index: 5;
+            }
+        }
+    }
+}

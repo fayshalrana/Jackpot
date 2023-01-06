@@ -1,0 +1,55 @@
+.accordion-heading{
+  font-size: 2rem;
+  color: white;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+  padding: 1rem 0;
+}
+dd{
+  border: none;
+}
+dd p{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.accordion > dt {
+  border:none;
+  border-bottom: 0;
+  padding: 10px;
+  position: relative;
+}
+.accordion > dt::after {
+  content: '\25BC';
+  font-size: 1.2rem;
+  color: white;
+  position: absolute;
+  right: 20px;
+  transition: .6s transform;
+  top: 10px;
+  border: none;
+}
+.accordion > dt.accordion-body-show::after {
+  transform: rotate(180deg);
+  transition: .6s transform;
+
+}
+.accordion > dd + dt {
+  margin-top: -1px;
+}
+.accordion > dt + dd {
+  border-top: 0;
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 10px;
+  transition: .3s max-height;
+}
+.accordion > dt + dd.accordion-body-show {
+  transition: .3s max-height;
+}
+.accordion-body-show{
+  border: 1px solid  black;
+}
